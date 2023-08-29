@@ -1,0 +1,187 @@
+{
+  "Links": [
+    {
+      "Navlink": "/",
+      "title": "الصفحة الرئيسية"
+    },
+    {
+      "Navlink": "/homeEv",
+      "title": "بعض أعمالنا"
+    },
+    {
+      "Navlink": "/galary/work1",
+      "title": "المعرض والصور"
+    },
+    {
+      "Navlink": "/contact",
+      "title": "اتصل بنا"
+    }
+  ],
+  "Balles": ["red", "#cbd4d9", "black"],
+
+  "Details": [
+    {
+      "title": "التكاليف والاسعار",
+      "desc": "في الأوربية للمصاعد نقدم لكم افضل سعر مقارنة باافضل خدمة , وهى من ضمن اهداف شركتناة",
+      "icon": "../../src/assets/dollar.png"
+    },
+    {
+      "title": "الخدمة المميزة",
+      "desc": "لدينا القدرة لتقديم افضل خدمة مصاعد على الاطلاق, وذلك لاننا نوفر كافة متطلبات العمل ",
+      "icon": "../../src/assets/perfection.png"
+    },
+    {
+      "title": "الدعم الفنى",
+      "desc": "نؤمن تماما ان اهمية الدعم الفنى المتواصل للعميل , لا تقل اهمية عن تنفيذ المشروع ذاته  ",
+      "icon": "../../src/assets/hand.png"
+    }
+  ],
+  "Servces": [
+    {
+      "title": " تركيب المصاعد  ",
+      "desc": "المصاعد المنزلية ومصاعد الشركات والمبانى التجارية وكافة انواع المصاعد المطلوبة لتناسب احتياجات المكان ",
+      "icon": "../../src/assets/elevator.png"
+    },
+    {
+      "title": " صيانة المصاعد ",
+      "desc": "صيانة جميع الاعطال التى قد تحدث للمصاعد , سواء المتعلقة بالكبينة والابواب , او الاعطال المتعلقة بمكينات المصعد",
+      "icon": "../../src/assets/tool.png"
+    },
+    {
+      "title": "الدعم الفنى وقطع الغيار",
+      "desc": "الاستشاؤة الفنية وتقديم الحلول المتكاملة للمبانى قيد التنفيذ , والمشاريع المتكاملة ",
+      "icon": "../../src/assets/spare-parts.png"
+    }
+  ],
+  "Vedios": [
+    "https://www.facebook.com/100064457719110/videos/809388597634354",
+    "https://www.facebook.com/european.elevators/videos/247428358184038",
+    "https://www.facebook.com/european.elevators/videos/160566340398897"
+  ],
+  "Door": [
+    {
+      "id": 1,
+      "img": "../../src/assets/gallary/door (1).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 2,
+      "img": "../../src/assets/gallary/door (2).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 3,
+      "img": "../../src/assets/gallary/door (3).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 4,
+      "img": "../../src/assets/gallary/door (4).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 5,
+      "img": "../../src/assets/gallary/door (5).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 6,
+      "img": "../../src/assets/gallary/door (6).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 7,
+      "img": "../../src/assets/gallary/door (7).jpg",
+      "prifx": "door"
+    },
+    {
+      "id": 8,
+      "img": "../../src/assets/gallary/door (8).jpg",
+      "prifx": "door"
+    }
+  ],
+  "Ghiar": [
+    {
+      "id": 1,
+      "img": "../../src/assets/gallary/ghiar (1).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 2,
+      "img": "../../src/assets/gallary/ghiar (2).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 3,
+      "img": "../../src/assets/gallary/ghiar (3).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 4,
+      "img": "../../src/assets/gallary/ghiar (4).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 5,
+      "img": "../../src/assets/gallary/ghiar (5).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 6,
+      "img": "../../src/assets/gallary/ghiar (6).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 7,
+      "img": "../../src/assets/gallary/ghiar (7).jpg",
+      "prifx": "ghiar"
+    },
+    {
+      "id": 8,
+      "img": "../../src/assets/gallary/ghiar (8).jpg",
+      "prifx": "ghiar"
+    }
+  ],
+  "work": [
+    {
+      "id": 1,
+      "img": "../../src/assets/gallary/work (1).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 2,
+      "img": "../../src/assets/gallary/work (9).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 3,
+      "img": "../../src/assets/gallary/work (3).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 4,
+      "img": "../../src/assets/gallary/work (4).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 5,
+      "img": "../../src/assets/gallary/work (5).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 6,
+      "img": "../../src/assets/gallary/work (6).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 7,
+      "img": "../../src/assets/gallary/work (11).jpg",
+      "prifx": "work"
+    },
+    {
+      "id": 8,
+      "img": "../../src/assets/gallary/work (8).jpg",
+      "prifx": "work"
+    }
+  ]
+}

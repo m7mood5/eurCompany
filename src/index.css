@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+:root {
+  --main-color: red;
+
+  --color-bg: red;
+  --color-bg-variant: rgba(0, 0, 0, 0.7);
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 0.4s ease;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+/* responsive start */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small screen */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+/* medium screen */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* large screen */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* x-large screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* xx-large screen */
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+/* responsive end */
+
+::selection {
+  background-color: var(--main-color);
+  color: #080808;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
