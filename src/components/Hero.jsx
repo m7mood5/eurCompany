@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { motion } from 'framer-motion'
 import { Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import {image} from "../../public/logo.jpg"
+import image from "../../public/logo.jpg"
 function Hero() {
     return (
         <Container>
@@ -81,7 +81,7 @@ function Hero() {
                                     delay: 0.4,
                                 }}
                             >
-                                <img src={image}  alt="eur"/>
+                                <Imag src={image}  alt="eur"/>
 
                             </motion.div>
                         </Grid>
