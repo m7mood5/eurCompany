@@ -23,34 +23,34 @@
     {
       "title": "التكاليف والاسعار",
       "desc": "في الأوربية للمصاعد نقدم لكم افضل سعر مقارنة باافضل خدمة , وهى من ضمن اهداف شركتناة",
-      "icon": "/assets/dollar.png"
+      "icon": "../../src/assets/dollar.png"
     },
     {
       "title": "الخدمة المميزة",
       "desc": "لدينا القدرة لتقديم افضل خدمة مصاعد على الاطلاق, وذلك لاننا نوفر كافة متطلبات العمل ",
-      "icon": "/assets/perfection.png"
+      "icon": "../../src/assets/perfection.png"
     },
     {
       "title": "الدعم الفنى",
       "desc": "نؤمن تماما ان اهمية الدعم الفنى المتواصل للعميل , لا تقل اهمية عن تنفيذ المشروع ذاته  ",
-      "icon": "/assets/hand.png"
+      "icon": "../../src/assets/hand.png"
     }
   ],
   "Servces": [
     {
       "title": " تركيب المصاعد  ",
       "desc": "المصاعد المنزلية ومصاعد الشركات والمبانى التجارية وكافة انواع المصاعد المطلوبة لتناسب احتياجات المكان ",
-      "icon": "/assets/elevator.png"
+      "icon": "../../src/assets/elevator.png"
     },
     {
       "title": " صيانة المصاعد ",
       "desc": "صيانة جميع الاعطال التى قد تحدث للمصاعد , سواء المتعلقة بالكبينة والابواب , او الاعطال المتعلقة بمكينات المصعد",
-      "icon": "/assets/tool.png"
+      "icon": "../../src/assets/tool.png"
     },
     {
       "title": "الدعم الفنى وقطع الغيار",
       "desc": "الاستشاؤة الفنية وتقديم الحلول المتكاملة للمبانى قيد التنفيذ , والمشاريع المتكاملة ",
-      "icon": "/assets/spare-parts.png"
+      "icon": "../../src/assets/spare-parts.png"
     }
   ],
   "Vedios": [
@@ -61,126 +61,126 @@
   "Door": [
     {
       "id": 1,
-      "img": "/gallary/door (1).jpg",
+      "img": "../../src/assets/gallary/door(18).jpg",
       "prifx": "door"
     },
     {
       "id": 2,
-      "img": "/gallary/door (2).jpg",
+      "img": "../../src/assets/gallary/door(19).jpg",
       "prifx": "door"
     },
     {
       "id": 3,
-      "img": "/gallary/door (3).jpg",
+      "img": "../../src/assets/gallary/door(20).jpg",
       "prifx": "door"
     },
     {
       "id": 4,
-      "img": "/gallary/door (4).jpg",
+      "img": "../../src/assets/gallary/door(21).jpg",
       "prifx": "door"
     },
     {
       "id": 5,
-      "img": "/gallary/door (5).jpg",
+      "img": "../../src/assets/gallary/door(22).jpg",
       "prifx": "door"
     },
     {
       "id": 6,
-      "img": "/gallary/door (6).jpg",
+      "img": "../../src/assets/gallary/door(23).jpg",
       "prifx": "door"
     },
     {
       "id": 7,
-      "img": "/gallary/door (7).jpg",
+      "img": "../../src/assets/gallary/door(24).jpg",
       "prifx": "door"
     },
     {
       "id": 8,
-      "img": "/gallary/door (8).jpg",
+      "img": "../../src/assets/gallary/door(25).jpg",
       "prifx": "door"
     }
   ],
   "Ghiar": [
     {
       "id": 1,
-      "img": "/gallary/ghiar (1).jpg",
+      "img": "../../src/assets/gallary/ghiar(9).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 2,
-      "img": "/gallary/ghiar (2).jpg",
+      "img": "../../src/assets/gallary/ghiar(10).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 3,
-      "img": "/gallary/ghiar (3).jpg",
+      "img": "../../src/assets/gallary/ghiar(11).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 4,
-      "img": "/gallary/ghiar (4).jpg",
+      "img": "../../src/assets/gallary/ghiar(12).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 5,
-      "img": "/gallary/ghiar (5).jpg",
+      "img": "../../src/assets/gallary/ghiar(13).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 6,
-      "img": "/gallary/ghiar (6).jpg",
+      "img": "../../src/assets/gallary/ghiar(14).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 7,
-      "img": "/gallary/ghiar (7).jpg",
+      "img": "../../src/assets/gallary/ghiar(15).jpg",
       "prifx": "ghiar"
     },
     {
       "id": 8,
-      "img": "/gallary/ghiar (8).jpg",
+      "img": "../../src/assets/gallary/ghiar(8).jpg",
       "prifx": "ghiar"
     }
   ],
   "work": [
     {
       "id": 1,
-      "img": "/gallary/work (1).jpg",
+      "img": "../../src/assets/gallary/work(25).jpg",
       "prifx": "work"
     },
     {
       "id": 2,
-      "img": "/gallary/work (9).jpg",
+      "img": "../../src/assets/gallary/work(26).jpg",
       "prifx": "work"
     },
     {
       "id": 3,
-      "img": "/gallary/work (3).jpg",
+      "img": "../../src/assets/gallary/work(27).jpg",
       "prifx": "work"
     },
     {
       "id": 4,
-      "img": "/gallary/work (4).jpg",
+      "img": "../../src/assets/gallary/work(28).jpg",
       "prifx": "work"
     },
     {
       "id": 5,
-      "img": "/gallary/work (5).jpg",
+      "img": "../../src/assets/gallary/work(29).jpg",
       "prifx": "work"
     },
     {
       "id": 6,
-      "img": "/gallary/work (6).jpg",
+      "img": "../../src/assets/gallary/work(30).jpg",
       "prifx": "work"
     },
     {
       "id": 7,
-      "img": "/gallary/work (11).jpg",
+      "img": "../../src/assets/gallary/work(33).jpg",
       "prifx": "work"
     },
     {
       "id": 8,
-      "img": "/gallary/work (8).jpg",
+      "img": "../../src/assets/gallary/work(35).jpg",
       "prifx": "work"
     }
   ]
