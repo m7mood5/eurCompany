@@ -20,7 +20,7 @@ const Gallary = () => {
         <Fragment>
             <Containerr>
                 <LandingImg>
-                    <img src="../../src/assets/cover.jpg" alt="" />
+                    <img src="../../public/assets/cover.jpg" alt="" />
                 </LandingImg>
                 <div className="container">
                     <Content>
