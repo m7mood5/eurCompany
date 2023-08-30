@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from "react-icons/md"
 import { RiMessengerLine } from "react-icons/ri"
 import { BsWhatsapp } from "react-icons/bs"
@@ -14,40 +13,18 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(
-            "service_k5v0nt8",
-            "template_k4z8cux",
-            form.current,
-            "dOiDBv71hFIQjNBJ5"
-        )
-            .then((result) => {
-                console.log(result.text);
-                e.target.reset()
-                toast("Email Sent Successfully", {
-                    position: "top-center",
-                    autoClose: 2000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "light",
-                    type: "success"
-                });
-            }, (error) => {
-                console.log(error.text);
-                toast("Failed to send email", {
-                    position: "top-center",
-                    autoClose: 2000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "light",
-                    type: "error"
-                });
-            });
+        toast("تم الارسال بنجاح", {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            type: "success"
+        });
+
     };
 
     return (
@@ -78,7 +55,7 @@ const Contact = () => {
                         <input type="text" name="name" placeholder="الاسم" required />
                         <input type="text" name="num" placeholder="رقم الهاتف" required />
                         <textarea name="message" rows="7" placeholder="الرسالة" required  ></textarea>
-                        <button type="submit" className="btn btn-primary">ارسال</button>
+                        <button type="submit" className="btn btn-primary" >ارسال</button>
                     </form>
                     <ToastContainer
                         position="top-center"
