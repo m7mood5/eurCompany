@@ -5,11 +5,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./components/Layout";
-import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 import Gallary from "./pages/Gallary";
+import Contact from "./components/Content/Contact";
 
 function App() {
   const router = createBrowserRouter(

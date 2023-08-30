@@ -1,6 +1,6 @@
 import "./footer.css"
 import { Link } from 'react-router-dom'
-import data from "../../src/data/db.json"
+import data from "../../data/db.json"
 const Footer = () => {
   return (
     <footer>
@@ -19,7 +19,7 @@ const Footer = () => {
         ))}
       </ul>
       <div className="footer__socials">
-      مدينه نصر الحي العاشر بلوك 21
+        مدينه نصر الحي العاشر بلوك 21
       </div>
       <div className="footer__copyright">
         <small>©copyright <span className="copyright__name">Mahmoud BaraKaT</span> . All rights reserved.</small>

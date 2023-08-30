@@ -1,16 +1,15 @@
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import "./contact.css"
 import { MdOutlineEmail } from "react-icons/md"
 import { RiMessengerLine } from "react-icons/ri"
 import { BsWhatsapp } from "react-icons/bs"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Container from './Container';
+import Container from '../Container';
 import { styled } from 'styled-components';
-import Title from './title';
+import Title from '../title';
 import { Typography } from '@mui/material';
-
+import "./Contact.css"
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -57,7 +56,7 @@ const Contact = () => {
                 <div className="container contact__container">
                     <div className="contact__options">
                         <article className="contact__option">
-                            <MdOutlineEmail className='contact__option-icon' />
+                            <MdOutlineEmail className="contact__option-icon" />
                             <h4>Email</h4>
                             <h5>info@europeanllc.com</h5>
                             <a href="mailto:info@europeanllc.com" target="_blank" rel="noreferrer">ارسال رسالة </a>

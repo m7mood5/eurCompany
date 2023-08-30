@@ -81,7 +81,7 @@ function Hero() {
                                 }}
                             >
                                 <Imag src="../../public/logo.jpg" />
-                               
+
                             </motion.div>
                         </Grid>
 
