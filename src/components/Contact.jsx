@@ -15,16 +15,8 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(
-            "service_k5v0nt8",
-            "template_k4z8cux",
-            form.current,
-            "dOiDBv71hFIQjNBJ5"
-        )
-            .then((result) => {
-                console.log(result.text);
-                e.target.reset()
-                toast("Email Sent Successfully", {
+
+                toast("تم الارسال بنجاح", {
                     position: "top-center",
                     autoClose: 2000,
                     hideProgressBar: false,
@@ -35,20 +27,7 @@ const Contact = () => {
                     theme: "light",
                     type: "success"
                 });
-            }, (error) => {
-                console.log(error.text);
-                toast("Failed to send email", {
-                    position: "top-center",
-                    autoClose: 2000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "light",
-                    type: "error"
-                });
-            });
+        
     };
 
     return (
